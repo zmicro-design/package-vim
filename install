@@ -40,7 +40,7 @@ cd -
 mv /tmp/v-tmp/config-vim-for-mac/.vimrc ~/.vimrc
 
 # vim pulgin controller - vundle
-[[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+[[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/zmicro-design/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # colors schemes
 cd /tmp/v-tmp
