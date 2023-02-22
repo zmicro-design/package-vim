@@ -20,10 +20,10 @@ if [ "$MODE" == "development" ]; then
 fi
 
 echo "Install Vim ..."
-if [ -f ~/.vimrc ]; then
-  echo "Vim already installed."
-  exit 0  
-fi
+# if [ -f ~/.vimrc ]; then
+#   # echo "Vim already installed."
+#   # exit 0  
+# fi
 
 [[ -d ~/.vim ]] || mkdir ~/.vim
 
