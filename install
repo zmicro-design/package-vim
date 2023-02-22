@@ -39,8 +39,8 @@ cd -
 [[ -f ~/.vimrc-bak ]] || ([[ -f ~/.vimrc ]] && cp ~/.vimrc ~/.vimrc-bak)
 mv /tmp/v-tmp/config-vim-for-mac/.vimrc ~/.vimrc
 
-# vim pulgin controller - vundle
-[[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/zmicro-design/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# # vim pulgin controller - vundle
+# [[ -d ~/.vim/bundle/Vundle.vim ]] || git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # colors schemes
 cd /tmp/v-tmp
@@ -56,7 +56,7 @@ sh ./install.sh
 cd -
 
 # install vim plugins
-vim +PluginInstall! +qall
+# vim +PluginInstall! +qall
 
 # rm tmp dir
 rm -rf /tmp/v-tmp
